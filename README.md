@@ -17,6 +17,8 @@ The minDNF method samples minimal boolean expressions in DNF
 
 2) Type 'min-gen-DNF' to see the options.
 
+
+
     Input File:                                    -fString                        // data file
     Transaction min_sup(DNF):                      -sInteger (default:1)           // d_min
     Transaction max_sup(DNF):                      -xInteger (default:10000000)    // d_max
