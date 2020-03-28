@@ -5,18 +5,17 @@ The minDNF method samples minimal boolean expressions in DNF
 
 
 **Relevant Publications**
+
 *[2012-sigkdd] Geng Li and Mohammed J. Zaki. Sampling minimal frequent boolean (dnf) patterns. In 18th ACM SIGKDD International Conference on Knowledge Discovery and Data Mining. August 2012.
 
 *[2016-dmkd] Geng Li and Mohammed J. Zaki. Sampling frequent and minimal boolean patterns: theory and application in classification. Data Mining and Knowledge Discovery, 30(1):181–225, January 2016. doi:10.1007/s10618-015-0409-y.
 
 
-#HOW TO
+# HOW TO
 
 1) The program supports ibm format dataset (see https://github.com/zakimjz/IBMGenerator).  If the dataset contains '0' item, then the program will reassign the item to the maximal number. For example, if the program contains 28 items, from 0-27. Then the program will assign '0' to '28'. Now the items are 1-28.
 
 2) Type 'min-gen-DNF' to see the options.
-
-==================== OPTIONS =====================
 
     Input File:                                    -fString                        // data file
     Transaction min_sup(DNF):                      -sInteger (default:1)           // d_min
